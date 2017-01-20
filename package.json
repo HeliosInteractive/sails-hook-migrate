@@ -1,0 +1,12 @@
+{
+  "name": "sails-hook-db-migrate",
+  "version": "0.0.1",
+  "description": "Uses db-migrate to handle sails migration more efficiently/safely",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "devDependencies": {
+    "sails": "~0.12.11"
+  }
+}
