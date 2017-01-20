@@ -1,12 +1,31 @@
 {
-  "name": "sails-hook-db-migrate",
-  "version": "0.0.1",
+  "name": "sails-hook-migrate",
+  "version": "0.1.0",
   "description": "Uses db-migrate to handle sails migration more efficiently/safely",
   "main": "index.js",
+  "author": "Michael Neil <michael.neil@heliosinteractive.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeliosInteractive/sails-hook-migrate"
+  },
   "sails": {
     "isHook": true
   },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "migrate",
+    "hook",
+    "sails",
+    "hooks",
+    "plugin"
+  ],
   "devDependencies": {
-    "sails": "~0.12.11"
+    "sails": "~0.10.0"
+  },
+  "dependencies": {
+    "db-migrate": "0.10.0-beta.20"
   }
 }
