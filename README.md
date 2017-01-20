@@ -14,13 +14,13 @@ Supported Databases:
 
 ```sh
 npm i -S sails-generate-migrate
-``
+```
 
 ## Installation
 
-``sh
+```sh
 npm i -S sails-generate-migrate sails-hook-migrate
-``
+```
 
 ## Usage
 
