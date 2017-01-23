@@ -1,6 +1,7 @@
 # Sails Hook Migrate
 
-Uses [DB Migrate](https://github.com/db-migrate/node-db-migrate) to handle database migrations.
+Uses [DB Migrate](https://github.com/db-migrate/node-db-migrate) to handle database migrations
+automatically when lifting sails.
 
 Supported Databases:
  - MySQL
@@ -29,8 +30,8 @@ Create a migrations folder and run sails lift!
  - Create a `migrations` folder
  - `sails lift`
 
-Migrate will detect the connection specified by your sails config. You can also override the connection settings
-in the configuration.
+Migrate will detect the connection specified by your sails config and run migrate up. You can also override
+the connection settings in the configuration.
 
 ## Configuration
 

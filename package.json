@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-migrate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Uses db-migrate to handle sails migration more efficiently/safely",
   "main": "index.js",
   "author": "Michael Neil <michael.neil@heliosinteractive.com>",

@@ -7,7 +7,7 @@ module.exports = function(sails) {
   var adapters = [
     {driver: 'sqlite3', regex: /sqlite/i},
     {driver: 'mysql', regex: /mysql/i},
-    {driver: 'pg', regex: /postgre/i},
+    {driver: 'pg', regex: /postgre|pg/i},
     {driver: 'mongodb', regex: /mongo/i},
   ]
 
