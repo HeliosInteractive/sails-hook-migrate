@@ -42,7 +42,8 @@ module.exports = function(sails) {
 
       var migrate = DBMigrate.getInstance(true, {
           config: {
-            [process.env.NODE_ENV]: Object.assign({
+            // db-migrate internally will use dev as default config - set dev config to our actual environment connection
+            ['dev']: Object.assign({
               driver: driver,
             }, connection)
           }
